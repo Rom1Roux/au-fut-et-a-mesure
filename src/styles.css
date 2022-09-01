@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+}
+
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "LED BOARD REVERSED";
+  src: url("./styles/fonts/LedSncf/ledbdrev.eot?") format("eot"), url("./styles/fonts/LedSncf/ledbdrev.woff") format("woff"), url("./styles/fonts/LedSncf/ledbdrev.ttf") format("truetype"), url("./styles/fonts/LedSncf/ledbdrev.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Font Sncf";
+  src: url("./styles/fonts/theSans/thesans-9-black.eot?") format("eot"), url("./styles/fonts/theSans/thesans-9-black.woff") format("woff"), url("./styles/fonts/theSans/thesans-9-black.ttf") format("truetype"), url("./styles/fonts/theSans/thesans-9-black.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.sncf_fontLed{
+  font-family: "LED BOARD REVERSED";
+  font-size: .8vw;
+  color: #c2a224;
+  text-align: left;
+  border-bottom: 'none'
+}
+
+.sncf_font {
+  font-family: "Font Sncf";
+}
+
+.sncf_header {
+  font-size:  1.4vw;
+  letter-spacing: 0.12rem;
+  margin: 0;
+}
+
+.sncf_title {
+  font-size:  1.4vw;
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+  font-weight: .5vw;
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+.borderBottom {
+  border-bottom: .1rem solid white;
+  border-radius: 2%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tableSncf {
+  margin: 40px;
+  background-color: black;
+}
